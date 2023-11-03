@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    right: 800px;
+    height: 100vh;
+   
+    background-image: url('logo-transparent1-png.png');
+    background-size: 50%; /* Καλύπτει το σύνολο της σελίδας */
+    background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της φωτογραφίας */
+    background-color: rgb(207, 230, 235);
+        
+}
+
+.container {
+    width: 360px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 150px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group button {
+    background: #31b8d6;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background: #0f8fac;
+}
+
+.form-group p {
+    margin-top: 10px;
+}
+
+.form-switch {
+    text-align: center;
+}
+
+.form-switch a {
+    color: #31b8d6;
+    text-decoration: none;
+}
+
+.form-switch a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the footer */
+footer {
+    color: #0000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: -100px;
+    margin-right: -140px;
+}
+
+/* Style for the copyright notice */
+.copyright {
+    font-size: 14px;
+    margin-left: -250px;
+}

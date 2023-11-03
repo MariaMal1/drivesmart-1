@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(207, 230, 235);
+}
+/* Style for the menu navigation bar */
+.sidebar {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #086b82;
+    padding-top: 20px;
+}
+
+/* Style for the menu items */
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+/* Style for the menu items on hover */
+.sidebar a:hover {
+    background-color: #0f8fac;
+}
+/* Style for the main content */
+.content {
+    margin-left: 270px; /* Adjust this to match the width of the sidebar */
+    padding: 20px;
+}
+ /* Style for the active button */
+ .active {
+    background-color: #31b8d6;
+    color: #fff;
+}
+
+.container1 {
+    background-color: #ffffff;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 120px;
+    right: auto;
+}
+.container2 {
+    background-color: #ffffff;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: auto;
+    right: -120px;
+    top: 5px;
+    height: 327px;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+    width: 1230px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="date"], input[type="time"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    background-color: #31b8d6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ /* Style for the footer */
+ footer {
+    color: #0000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: -100px;
+    margin-right: -140px;
+}
+
+/* Style for the copyright notice */
+.copyright {
+    font-size: 14px;
+    margin-left: -250px;
+}
