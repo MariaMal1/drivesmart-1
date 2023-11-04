@@ -1,0 +1,52 @@
+/* Κεντράρουμε το κείμενο της επικεφαλίδας 
+.center-header {
+    text-align: center;
+    color: rgb(254, 254, 254);
+}
+body{
+   
+    background-color: #0f8fac;
+    color: aliceblue;
+    }
+
+    .form-container {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    } */
+    
+    .nice-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .nice-list li {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin: 5px 0;
+        font-weight: bold;
+    }
+    
+    input {
+        padding: 5px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
